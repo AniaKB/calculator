@@ -7,7 +7,8 @@
   body {
     padding:0;
     margin:0;
-    background: pink;
+    background: rgb(139, 32, 95);
+    background-image: linear-gradient(to right, rgb(228, 109, 208) , rgb(156, 212, 245));
   }
   
   .calculator-grid {
@@ -21,7 +22,6 @@
   
   .calulator-grid > button {
     cursor: pointer;
-    font-size: 2rem;
     border: 1px solid;
     outline: none;
     background-color: rgba (255, 255, 255, .50);
@@ -38,17 +38,36 @@
     align-items;flex-end;
     justify-content:space-around;
     flex-direction: column;
-    padding: 10px;
+    padding: 30px;
     word-wrap: break-word;
     word-break: break-all;
   }
   
-  .output .previous-operand {
+  .output .previous-op {
     color: rgba(255, 255, 255, .75);
     font-size: 1.5rem;
   }
   
-  .output .current-operand {
+  .output .current-op {
     color: white;
     font-size: 2.5rem;
+  }
+
+  button {
+    border-radius: 5px;
+    color:rgb(20, 0, 92);
+    background-color: rgb(255, 238, 255);
+    padding: 5px;
+    margin:2px 1px 2px 1px;
+    opacity:0.7;
+    font-size: 40px;
+  }
+
+  button:hover {
+    background-color:white;
+  }
+
+  #divide, #multiply, #add, #subtract, #equals {
+    font-size: 50px;
+    opacity:0.85;
   }
