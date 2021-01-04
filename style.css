@@ -67,7 +67,7 @@
     background-color:white;
   }
 
-  #divide, #multiply, #add, #subtract, #equals {
+  #divide, #multiply, #add, #subtract {
     font-size: 50px;
-    opacity:0.85;
+    opacity:0.90;
   }
